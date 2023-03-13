@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/brianvoe/gofakeit v3.18.0+incompatible
 	github.com/stretchr/testify v1.8.2
-	github.com/volkstrader/girlfriend v1.1.0
+	github.com/volkstrader/girlfriend v1.3.0
 )
 
 require (
