@@ -1,13 +1,14 @@
 package actress
 
 import (
+	"github.com/brianvoe/gofakeit"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )
 
 func TestProfile_Dating(t *testing.T) {
 	a := Profile{
-		Name: "test",
+		Name: gofakeit.Name(),
 		Age:  25,
 	}
 
